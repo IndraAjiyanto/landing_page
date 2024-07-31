@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="judul">
+        <img src="asset/esteh.png">
+        <h1>ESS TEH</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><button onclick="klikBeranda()" onmouseover="mouseBeranda()" onmouseout="keluarBeranda()" class="home">Beranda</button></li>
+                <li><button onclick="klikCaraBeli()" onmouseover="mouseCaraBeli()" onmouseout="keluarCaraBeli()" class="caraBeli">Cara Beli</button></li>
+                <li><button onclick="klikBiodata()" onmouseover="mouseBiodata()" onmouseout="keluarBiodata()" class="biodata">Biodata</button></li>
+            </ul>
+            <input type="submit" onclick="klikPesan()" onmouseover="mousePesan()" onmouseout="keluarPesan()" class="submit" value="pesan"> 
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <div class="content3">
+                <h3>BIODATA</h3>
+                <img src="asset/in.JPG">
+                <div class="biodata">
+                    <ul>
+                        <li>Nama :</li>
+                        <li>Email :</li>
+                        <li>No.hp :</li>
+                        <li>Alamat :</li>
+                    </ul>
+                    <ul>
+                        <li>Indra Ajiyanto</li>
+                        <li>indraajiyanto052@gmail.com</li>
+                        <li>0895377383818</li>
+                        <li>Jl.Inpres Ajibarang-Tumiyang Jawa Tengah</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <hr>
+        
+        <article class="content">
+                <div class="baris">
+            <div class="intro">
+                <h2>ESS TEH HELA ATUUH</h2>
+                <p><b>"ESS TEH HELA ATUUH"</b> merupakan es teh yang dibuat khusus dengan daun teh
+                    kualitas yang sangat bagus, sangat cocok untuk yang sedang panas panas gini
+                    cocok banget pokoknya mah.  
+                </p>
+                <input type="button" onclick="klikPesan1()" onmouseover="mousePesan1()" onmouseout="keluarPesan1()" value="pesan" class="pesan"> 
+            </div>
+            <div class="esTeh">
+                <img src="asset/esteh.png">
+            </div>
+            
+        </div>
+        </article>
+        <hr>
+       
+
+        <article class="content1">
+            <div class="tutorial">
+                <h2>Cara Belinya yaa geeess!!!</h2>
+            </div>
+            <div class="tutorial1">
+                <div class="langkah1">
+                    <h3>Langkah pertama :</h3>
+                <p> klik tombol "beli" di atas</p>
+                </div>
+                <div class="langkah1">
+                    <h3>Langkah kedua :</h3>
+                <p>nanti akan di arahkan ke form dan isi form tersebut</p>
+                </div>
+                <div class="langkah1">
+                    <h3>Langkah ketiga :</h3>
+                <p>jika pilih "diantar" maka kalian akan stay di tempat yang anda isi,
+                    dan jika pilih ambil di tempat maka kalian harus ketempat yang anda pesan</p>
+                </div>
+                <div class="langkah1">
+                    <h3>Langkah kempat:</h3>
+                <p>
+                    yang terkhir adalah pembayaran yang dimana adalah hal yang kita tungguu wkwkwkw, ngak ngak candaa geess. 
+                    ya untuk pembayaran bisa cash atau juga menggunakan pembayaran online 
+                </p>
+                </div>
+            </div>
+        </article>
+        <hr>
+       
+
+        <article class="content2">
+            <form action="" method="">
+            <h2>FORM PEMESANAN</h2>
+            <label>Nama :</label><br>
+            <input type="text"><br>
+            <label>No hp :</label><br>
+            <input type="number"><br>
+            <label>Pilih Minuman :</label><br>
+            <select name="pilihmenu" class="pilihmenu">
+                <option value="es teh original">es teh original</option>
+                <option value="es teh jumbo">es teh jumbo</option>
+                <option value="es teh special">es teh special</option>
+                <option value="teh hangat">teh hangat</option>
+            </select><br>
+            <label>jumlah beli :</label><br>
+            <input type="number"><br>
+            <label>Pilih metode pengambilan :</label><br>
+            <div class="radio">
+                <label>
+            <input type="radio" id="cash"/>
+        <label>Diantar kerumah</label>
+            <input type="radio" id="online">
+            <label>Ambil ketempatnya</label>
+            </div>
+            <label>Pilih metode pembayaran :</label><br>
+            <select name="pilihmenu" class="pilihmenu">
+                <option value="cash">cash</option>
+                <option value="dana">dana</option>
+                <option value="ovo">ovo</option>
+                <option value="rekening">rekening bni</option>
+            <input type="button" onclick="klikBeli()" onmouseover="mouseBeli()" onmouseout="keluarBeli()" value="beli" class="beli"> 
+            </form>
+          
+        </article>
+        <hr>
+    </main>
+        
+        <footer>
+            <p>Belajar Dasar Pemrograman Web Indra Ajiyanto</p>
+        </footer>
+  
+    <script src="JS/main.js"></script>
+</body>
+</html>

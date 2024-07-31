@@ -1,0 +1,276 @@
+body{
+    background-color: #2E4374 ;
+    font-family: monospace;
+    margin: 0;
+}
+header{
+    margin: 0;
+    display : flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    width: 100%;
+}
+.judul{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ef8809;
+    height: 50px;
+    justify-content: center;
+    border-radius: 5px;
+    color: aliceblue;
+    box-shadow: 0px 0px 5px 0px  black;
+}
+nav {
+    display : flex;
+    flex-direction: row;
+ 
+}
+header img{
+    width:50px;
+    height:50px;
+    object-fit: cover;
+    object-position: center;
+}
+h1{
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul{
+    display : flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 5px;
+}
+ul li button{
+    font-family: monospace;
+    padding: 10px;
+    font-size: 1,3em;
+    color: #ef8809;
+    margin-left: 30px;
+    background-color: aliceblue;
+    border : 1px solid aliceblue;
+}
+
+input{
+    color: aliceblue;
+    width: 50px;
+    margin : 20px;
+    background-color: #ef8809;   
+    border-style: none;
+    font-family: monospace;
+    border-radius: 5px;
+}
+ 
+
+.baris{
+    display:flex;
+    flex-direction: row;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    color:aliceblue;
+    margin: 100px 40px 40px 40px;
+    border-radius: 10px;
+    font-family: monospace;
+   
+}
+article{
+    margin-right: 20px;
+}
+img{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+h2 {
+    font-family: monospace;
+    font-size: 300%;
+    margin-top: 0px;
+}
+.pesan{
+    margin-left: 0px;
+    width: 100px;
+    padding: 10px;
+}
+hr{
+    width: 93%;
+    opacity: 50%;
+}
+@media screen and (max-width: 900px){
+    .baris{
+        display: flex;
+        flex-direction: column;
+    }
+    .esTeh{
+        order: -4;
+    }
+    .judul{
+        margin-top: 5px;
+        flex-direction: column;
+        font-size: 5px;
+      
+    }
+    header img{
+        padding-top: 10px;
+        margin-left: 13px;
+        width: 30px;
+        height: 40px;
+    }
+    h1{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    ul li button{
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+
+
+.content1{
+    margin: 40px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.tutorial{
+        font-family: monospace;
+        font-size: 100%;
+        margin-top: 0px;
+        text-align: center;
+}
+.tutorial1{
+    display: flex;
+    flex-direction: row;
+}
+.tutorial1 div{
+    border: 5px solid #ef8809;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px  black;
+    flex-basis: 30%;
+}
+
+@media screen and (max-width:900px){
+    .tutorial1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+.content2{
+    color: #ef8809;
+    padding: 20px;
+    background-color: aliceblue;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.content2 h2{
+    font-family: monospace;
+    font-size: 300%;
+    margin-top: 0px;
+    text-align: center;
+}
+.content2 input,select{
+    color: black;
+    background-color: aliceblue;
+    border: 2px solid #ef8809 ;
+    border-radius: 5px;
+    width: 150px;
+    margin: 10px 20px 20px 0px;
+    margin-left: 0;
+    width: 100%;
+}
+#cash{
+    width: 10px;
+    margin: 10px 0px 30px 0px;
+    padding: 0;
+}
+#online{
+    width: 10px;
+    margin: 10px 0px 0px 20px;
+}
+.content2 form .beli{
+    border: 2px solid #ef8809;
+    padding: 10px;
+    margin-top: 70px;
+    background-color: #2E4374;
+    width:100%;
+    color: aliceblue;
+}
+
+
+
+
+aside{
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    margin: 50px auto;
+    display: flex;
+    order: 10;
+}
+.content3{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 20px;
+    border: 5px solid #ef8809;
+}
+h3{
+    text-align: center;
+}
+.content3 img{
+    display: flex;
+    justify-content: center ;
+    margin: 30px auto;
+    height: auto;
+    width: 100px;
+    border-radius: 10px;
+}
+.biodata{
+    display: flex;
+    flex-direction: row;
+}
+.content3 ul{
+    display: inline-block;
+    flex-basis: 30%;
+    padding: 0;
+    margin: auto;
+    color: black;
+}
+.content3 ul li{
+    padding: 10px;
+}
+
+
+
+
+footer{
+    opacity: 50%;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+
+
